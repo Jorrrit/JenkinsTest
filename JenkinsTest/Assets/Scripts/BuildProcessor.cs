@@ -12,7 +12,7 @@ namespace Assets.Editor
 		{
 			BuildPipeline.BuildPlayer
                 (
-				new EditorBuildSettingsScene[] { new EditorBuildSettingsScene("Assets/Scenes/Driver.unity", true) },
+				new EditorBuildSettingsScene[] { new EditorBuildSettingsScene("Assets/Scenes/SampleScene.unity", true) },
 				"c:/outdir/",
 				 BuildTarget.StandaloneWindows,
 				 BuildOptions.None
