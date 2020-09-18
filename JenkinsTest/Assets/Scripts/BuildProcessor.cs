@@ -7,13 +7,13 @@ namespace Assets.Editor
 		/// Function is intended to be run from command line
 		/// </summary>
         
-		[MenuItem("BuildProcessor/Build VR Driver")]
+		[MenuItem("BuildProcessor/Build JenkinsTest")]
 		static void BuildJenkinsTest()
 		{
 			BuildPipeline.BuildPlayer
                 (
 				new EditorBuildSettingsScene[] { new EditorBuildSettingsScene("Assets/Scenes/SampleScene.unity", true) },
-				"c:/outdir/",
+                "e:/TEMPBUILDLOC/",
 				 BuildTarget.StandaloneWindows,
 				 BuildOptions.None
 				);
